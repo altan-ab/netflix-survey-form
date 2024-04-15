@@ -1,0 +1,83 @@
+body {
+    background-image: 
+    url(https://miro.medium.com/v2/resize:fit:720/format:webp/1*HXbsbmvUf6-6Cv0_aSmaRQ.jpeg);  
+    background-color: gray;  
+    background-repeat: repeat;
+    background-size: cover;    
+    position: relative;              
+}
+
+.main-page {
+    text-align: center;     
+}
+
+.net {
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    margin-bottom: 0;
+}
+
+.flix {
+    color: red;
+    font-family: "Oswald", sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    margin-bottom: 0;
+}
+
+.description {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300; 
+    margin: 15px;   
+}
+
+/* FORM SECTION */
+
+.content-page {   
+    box-sizing: content-box;
+    padding: 30px 30px;
+    background-color: rgba(0, 0, 0, 0.7);     
+    width: 450px;
+    margin: 0 auto;  
+    text-align: left;   
+  
+}
+
+.content-page .box-text, .box-check, .box-radio, .box-feed {
+    color: white;
+    margin: 20px 0; 
+}
+
+:is(#name, #age, #email, #content) {
+    width: 400px;
+    height: 30px;
+}
+
+#feedback {
+    resize:none;
+    color: black;            
+}
+
+.head-three {
+    margin-bottom: 2px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+button {   
+    color: white;
+    background-color: red;
+    margin: 0 auto;
+    padding: 15px 50px;
+    border-radius: 30px;
+    border: 0;
+    position: relative;
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;    
+}

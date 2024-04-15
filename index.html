@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetflixSurveyForm</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">    
+</head>
+<body>                   
+        <div class="main-page">
+            <header>
+                <h1 class="net"> NET<span class="flix">FLIX</span>
+                </h1>
+                <h2 class="description">Thank you for signing up at Netflix. Tell us more about yourself.                    
+                </h2>
+            </header>
+            <div class="content-page"> 
+                <form action="information">                      
+                <div class="box-text"> 
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" id="name" placeholder="Enter Your Name">
+                </div>
+                <div class="box-text">
+                    <label for="age">Age</label>
+                    <br>
+                    <input type="text" id="age" placeholder="Age">
+                </div>     
+                <div class="box-text">
+                    <label for="email">E-mail</label>
+                    <br>
+                    <input type="text" id="email" placeholder="example@netflix.com">
+                </div>
+                <div class="box-text">
+                    <label for="content">Content Type</label>
+                    <br>
+                    <select name="content" id="content">
+                        <option value="movie">Movie</option>
+                        <option value="series">Series</option>
+                    </select> 
+                </div>  
+                <div class="box-check">
+                    <h3 class="head-three">Movie type</h3>
+                    <input type="checkbox" id="comedy" value="comedy">
+                    <label for="comedy">Comedy</label>
+                    <br>
+                    <input type="checkbox" id="action" value="action">
+                    <label for="action">Action</label>
+                    <br>
+                    <input type="checkbox" id="romance" value="romance">
+                    <label for="romance">Romance</label>
+                </div>
+                <div class="box-radio">
+                    <h3 class="head-three">Gender</h3>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label>
+                    <br>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
+                    <br>
+                    <input type="radio" name="gender" id="other" value="other">
+                    <label for="other">Other</label>
+                </div>
+                <div class="box-feed">
+                    <label for="feedback">Feedback</label>                    
+                    <textarea name="feedback" id="feedback" form="feedback" placeholder="Enter Your Comment" cols="48" rows="6"></textarea>                    
+                </div> 
+                <footer>
+                    <button>Send</button>
+                </footer>  
+            </form> 
+            </div>            
+        </div>         
+</body>
+</html>
